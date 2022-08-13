@@ -10,6 +10,11 @@ This will install wordpress using sqlite as the database in the current working 
 ```
 php -S localhost:8000
 ```
+Once I had installed wordpress, I installed and activated a plugin:
+```
+php ./wp-cli.phar plugin install simple-xml-sitemap-generator --activate
+```
+
 ## Credit 
 
 Many thanks to [https://github.com/aaemnnosttv/wp-sqlite-db](https://github.com/aaemnnosttv/wp-sqlite-db)
