@@ -8,7 +8,7 @@ curl -s -L https://raw.githubusercontent.com/rhildred/test_wordpress/main/toaste
 ```
 This will install wordpress using sqlite as the database in the current working folder. You can run wordpress with:
 ```
-php -S localhost:8000
+php -S localhost:1200
 ```
 Once I had installed wordpress, I installed and activated a plugin:
 ```
