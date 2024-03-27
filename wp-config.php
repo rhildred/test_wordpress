@@ -15,8 +15,6 @@
  */
 
 // ** Use SQLITE for a local database ** //
-define('DB_FILE', 'db.sqlite');
-
 /** Database Charset to use in creating database tables. */
 define('DB_CHARSET', 'utf8');
 
