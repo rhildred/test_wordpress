@@ -63,6 +63,11 @@ define( 'WP_CONTENT_URL', '/wp-content');
 
 define('FS_METHOD','direct');
 
+if(!empty($_SERVER['HTTP_X_FORWARDED_HOST']))
+   $_SERVER['HTTP_HOST']=$_SERVER['HTTP_X_FORWARDED_HOST'];
+if ($_SERVER['HTTP_X_FORWARDED_PROTO'] == 'https')
+   $_SERVER['HTTPS']='on';
+
 
 /* That's all, stop editing! Happy blogging. */
 
